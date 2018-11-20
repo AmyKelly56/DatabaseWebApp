@@ -22,20 +22,20 @@
 <!-- Now everything we'll need to use firebase -->
   <script src="https://www.gstatic.com/firebasejs/5.5.0/firebase.js"></script>
 
-  <script type="text/javascript">
   
-    //replace this with the config in the code snippet provided from Firebase.
-    var config = {
-      apiKey: '<%= process.env.API_KEY %>', // this references the API_KEY environemnt variable!
-      authDomain: "databaseexample-5d86a.firebaseapp.com",
-      databaseURL: "https://databaseexample-5d86a.firebaseio.com",
-      projectId: "databaseexample-5d86a",
-      storageBucket: "databaseexample-5d86a.appspot.com",
-      messagingSenderId: "684265563648"
-    };
-
-    firebase.initializeApp(config);
-  </script>
+<script src="https://www.gstatic.com/firebasejs/5.5.8/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyADGoUsofW_b0juHimZIufjAISZwXWLWLs",
+    authDomain: "databaseproject-6362c.firebaseapp.com",
+    databaseURL: "https://databaseproject-6362c.firebaseio.com",
+    projectId: "databaseproject-6362c",
+    storageBucket: "databaseproject-6362c.appspot.com",
+    messagingSenderId: "604140724898"
+  };
+  firebase.initializeApp(config);
+</script>
 
 <!-- then our app's own js file -->
 <script src="/js/main.js"></script>
